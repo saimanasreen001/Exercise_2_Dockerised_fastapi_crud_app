@@ -1,21 +1,21 @@
 # Dockerized FastAPI CRUD APP
 
-    The Basic FastAPI CRUD app created in the yesterday's assignment has now been dockerized.<br>
-    Dockerization means packaging and distributing applications using docker images ad containers.
+    The Basic FastAPI CRUD app created in the yesterday's assignment has now been dockerized.
+    Dockerization means packaging and distributing applications using docker images and containers.
 
 ## Project Structure
 
-    Exercise_2_Dockerized_fastapi_crud_app/<br>
-    ├── pycache/<br>
-    ├── Dockerfile<br>
-    ├── main.py<br>
-    ├── requirements.txt<br>
-    ├── README.md<br>
+    Exercise_2_Dockerized_fastapi_crud_app/
+    ├── pycache/
+    ├── Dockerfile
+    ├── main.py
+    ├── requirements.txt
+    ├── README.md
 
 ## Workflow
 
-    1. Firstly clone the `Exercise_2_FastAPI_CRUD_APP` created in yesterday's assignmet.
-    2. Install docker using WSL.
+    1. Firstly cloned the `Exercise_2_FastAPI_CRUD_APP` created in yesterday's assignmet.
+    2. Installed docker using WSL.
     3. Created the Dockerfile.
     4. Created the Docker Image.
     5. Checked whether the image is running.
