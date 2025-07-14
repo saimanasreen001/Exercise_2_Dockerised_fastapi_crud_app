@@ -1,14 +1,15 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from fastapi import FastAPI, HTTPException # FastAPI class is used to create fastapi instance
+                                           # HTTPException is used to raise HTTP errors.
+from pydantic import BaseModel 
 
 app=FastAPI()
 
-class Student(BaseModel):
+class Student(BaseModel): # Student object
     name:str
     gender:str
     age:int
 
-students={}
+students={} # empty dictionary
 
 @app.post("/students/{student_id}")
 def create_student(student_id:int, student:Student):

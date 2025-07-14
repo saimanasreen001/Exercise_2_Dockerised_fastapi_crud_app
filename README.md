@@ -18,7 +18,7 @@
     2. Installed docker using WSL.
     3. Created the Dockerfile.
     4. Created the Docker Image.
-    5. Checked whether the image is running.
+    5. Checked whether the image is running properly.
     6. Pushed the Docker image to the docker hub.
     7. Pulled the docker image from Docker hub.
     8. Ran the docker image.
